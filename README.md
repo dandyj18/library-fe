@@ -16,8 +16,7 @@ Project frontend sederhana untuk katalog buku menggunakan Next.js dan Tailwind C
 
 ## Instalasi
 
-Clone repository:
-
 ```bash
 git clone https://github.com/dandyj18/library-fe.git
 cd library-fe
+npm install
