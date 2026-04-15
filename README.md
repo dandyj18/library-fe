@@ -1,22 +1,34 @@
-# Library App FE (Tailwind)
+Library App FE
 
-Project frontend sederhana untuk katalog buku menggunakan Tailwind CSS.
+Project frontend sederhana untuk katalog buku menggunakan Next.js dan Tailwind CSS.
 
-## Fitur
+Fitur
+Menampilkan daftar buku dalam bentuk card
+Pencarian buku berdasarkan judul atau penulis
+Filter buku berdasarkan kategori
+Menampilkan statistik (total buku, kategori, favorit)
+Menyimpan buku favorit menggunakan localStorage
+Instalasi
 
-- Daftar buku dalam bentuk card
-- Search berdasarkan judul/penulis
-- Filter kategori
-- Statistik total buku, kategori, dan favorit
-- Simpan favorit ke `localStorage`
+Clone repository:
 
-## Menjalankan Project
+git clone https://github.com/dandyj18/library-fe.git
+cd library-fe
 
-Karena ini project static, kamu bisa jalankan dengan server sederhana:
+Install dependencies:
 
-```bash
-cd /home/paradx/library-app-fe
-python3 -m http.server 5173
-```
+npm install
+Menjalankan Project
 
-Lalu buka `http://localhost:5173`.
+Jalankan development server:
+
+npm run dev
+Akses di Browser
+
+Buka di browser:
+
+http://localhost:3000
+Catatan
+Default port Next.js adalah 3000
+Untuk mengganti port:
+npm run dev -- -p 3001
