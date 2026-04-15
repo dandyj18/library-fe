@@ -6,11 +6,17 @@ Project frontend sederhana untuk katalog buku menggunakan Next.js dan Tailwind C
 
 ## Fitur
 
-- Menampilkan daftar buku dalam bentuk card  
-- Pencarian buku berdasarkan judul atau penulis  
-- Filter buku berdasarkan kategori  
-- Menampilkan statistik (total buku, kategori, favorit)  
-- Menyimpan buku favorit menggunakan localStorage  
+- Menampilkan daftar buku  
+- CRUD data buku (tambah, edit, hapus, detail)  
+
+- Manajemen member  
+- CRUD data member  
+
+- Peminjaman buku  
+- Mengembalikan buku  
+
+- Menampilkan data peminjaman  
+- Status buku (dipinjam / tersedia)  
 
 ---
 
